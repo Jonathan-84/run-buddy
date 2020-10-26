@@ -304,6 +304,7 @@ border-bottom: none;
   padding: 15px;
   background-size: cover;
   align-items: flex-end;
+  position: relative;
 }
 .trainer-img::after{
   content: "";
@@ -313,7 +314,7 @@ border-bottom: none;
   position: absolute;
   top:0;
   left: 0;
-  opacity: 0;
+  opacity: 1;
 }
 .trainer-img:hover span {
   
